@@ -6,7 +6,7 @@ import os
 
 
 def _getkey(key: Optional[str] = None):
-    key = key or os.getenv("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")
+    key = key or os.getenv("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")
     if key is None:
         raise ValueError(
             "OpenAI API Key not found. Please set the `OPENAI_API_KEY` environment variable. "
